@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio v.1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Шапка страницы -->
+
+  <!-- Шапка страницы -->
+
     <header>
       <nav>
-        <a href="./index.html">
+        <a class=logo href="./index.html">
             <span>Web</span> Studio
         </a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="menu-list">
+          <li><a class="menu-link" href="./index.html">Студия</a></li>
+          <li><a class="menu-link" href="./portfolio.html" target="_blank">Портфолио</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Контакты</a></li>
         </ul>
       </nav>  
-        <ul>
+        <ul class="menu-contacts">
           <li>
             <img src="./images/Header/envelope_hover_.svg" alt="Адрес электронной почты">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
             <img src="./images/Header/Tel_img.svg" alt="Контактный номер телефона">
-            <a href="tel:380961111111">+38 096 111 11 11</a>
+            <a class="contact-item" href="tel:380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
     </header> 
     
-    <!--Основной контент страницы-->
+  <!--Основной контент страницы-->
+
     <main>
 
       <!-- Герой -->
@@ -327,21 +332,19 @@
 
     </main>
      
-    <!-- Подвал страницы -->
+  <!-- Подвал страницы -->
+    
     <footer>
-
       <!--Контакты-->
-      <div>
+      <div class="footer-contacts">
         <h2>Контакты студии</h2>
-          <a href="./index.html">
+          <a class="logo" href="./index.html">
             <span>Web</span> Studio
           </a>
-          <address>г. Киев, пр-т Леси Украинки, 26</address>
+          <address class="adress-location">г. Киев, пр-т Леси Украинки, 26</address>
           <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </address>
-          <address>
-            <a href="tel:380961111111">+38 096 111 11 11</a>
+            <a class="adress-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
+            <a class="adress-contacts" href="tel:380961111111">+38 096 111 11 11</a>
           </address>
         </div>
       <!--Социальные сети-->
@@ -359,7 +362,7 @@
       <div>
         <h2>Форма подписки</h2>
           <h3><em>подписаться на рассылку</em></h3>
-          <a href="#">Подписаться</a>
+          <a class="signup" href="#">Подписаться</a>
       </div>
       <div>
           <p>2020 | Developed by GoIT Students </p>
