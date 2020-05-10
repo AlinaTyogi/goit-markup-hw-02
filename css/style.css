@@ -28,7 +28,6 @@ h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
 }
 h3{
     color: var(--primary-background-color);
@@ -76,7 +75,7 @@ h3{
 }
 
 /*Стили для кнопок ссылок. Когда будем делать НАСТОЯЩУЮ кнопку в футере- потом уберу*/
-.buttom {
+.link-button {
     color: var(--primary-background-color);
     background-color: var(--primary-hover-color);
     font-weight: 700;
@@ -86,6 +85,8 @@ h3{
     text-align: center;
     letter-spacing: 0.06em;
 }
+
+/*Стили для страницы Studio*/
 
 /*Стили для Героя*/
 
@@ -127,14 +128,12 @@ background: rgba(47, 48, 58, 0.8);
     font-size: 16px;
     line-height: 1.18;
     text-transform: none;
-    text-align: center;
 }
 .team-list p{
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
 }
 
 /*Стили для footer*/
@@ -182,4 +181,51 @@ footer .logo{
     font-size: 12px;
     line-height: 2;
     text-align: center;
+}
+
+/*Стили для страницы Portfolio*/
+
+    /*Кнопки-фильтры*/
+button {
+    background: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: inherit;
+    
+}
+button:hover,
+button:focus{
+    background:var(--primary-hover-color);
+    color: var(--primary-background-color);
+
+}
+
+    /*Примеры работ*/
+
+.work-link{
+    text-decoration: none;
+}
+.work-examples h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.work-examples p{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+.work-examples .hover-text{
+    color: var(--primary-background-color);
+    font-size: 18px;
+    line-height: 1.56;
+
+        /*пока Саша сказал не делать background, но чтобы было видно цвет текста - применила*/
+    background: var(--primary-hover-color); 
 }
